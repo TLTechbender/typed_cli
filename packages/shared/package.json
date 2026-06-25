@@ -1,0 +1,14 @@
+{
+  "name": "@typed_cli/shared",
+  "version": "1.0.0",
+  "description": "Shared types for CLI tools",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.0"
+  }
+}

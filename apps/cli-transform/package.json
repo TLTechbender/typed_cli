@@ -1,0 +1,20 @@
+{
+  "name": "cli-transform",
+  "version": "1.0.0",
+  "description": "JSON transformer that applies field mappings",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@typed_cli/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.0",
+    "tsx": "^4.7.0",
+    "@types/node": "^20.0.0"
+  }
+}

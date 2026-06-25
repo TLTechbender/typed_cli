@@ -1,0 +1,123 @@
+{
+  "data": [
+    {
+      "name": "John Doe",
+      "age": 20,
+      "email": "john.doe@example.com",
+      "grade": "A"
+    },
+    {
+      "name": "Jane Smith",
+      "age": 22,
+      "email": "jane.smith@example.com",
+      "grade": "B+"
+    },
+    {
+      "name": "Michael Johnson",
+      "age": 19,
+      "email": "michael.johnson@example.com",
+      "grade": "C"
+    },
+    {
+      "name": "Sarah Williams",
+      "age": 21,
+      "email": "sarah.williams@example.com",
+      "grade": "A-"
+    },
+    {
+      "name": "David Brown",
+      "age": 18,
+      "email": "david.brown@example.com",
+      "grade": "B"
+    },
+    {
+      "name": "12345",
+      "age": 20,
+      "email": "numbername@example.com",
+      "grade": "A"
+    },
+    {
+      "name": "James Anderson",
+      "age": 21,
+      "email": "james.anderson@example.com"
+    },
+    {
+      "name": "Olivia Martinez",
+      "age": 22,
+      "email": "olivia.martinez@example.com",
+      "grade": "A"
+    },
+    {
+      "name": "William Harris",
+      "age": 20,
+      "email": "william.harris@example.com",
+      "grade": "A"
+    },
+    {
+      "name": "Grace, Lee",
+      "age": 21,
+      "email": "grace.lee@example.com",
+      "grade": "B+"
+    },
+    {
+      "name": "Lucas Martin",
+      "age": 17,
+      "email": "lucas.martin@example.com",
+      "grade": "F"
+    },
+    {
+      "name": "Emma Clark",
+      "age": 19,
+      "email": "emma.clark@example.com",
+      "grade": "A-"
+    },
+    {
+      "name": "Isabella Lewis",
+      "age": 20,
+      "email": "isabella.lewis@example.com",
+      "grade": "95"
+    }
+  ],
+  "errors": [
+    {
+      "rowNumber": 8,
+      "field": "age",
+      "reason": "Must be a valid number"
+    },
+    {
+      "rowNumber": 9,
+      "field": "email",
+      "reason": "Must be a valid email"
+    },
+    {
+      "rowNumber": 10,
+      "field": "email",
+      "reason": "email is required"
+    },
+    {
+      "rowNumber": 12,
+      "field": "name",
+      "reason": "name is required"
+    },
+    {
+      "rowNumber": 14,
+      "field": "age",
+      "reason": "Must be at least 0"
+    },
+    {
+      "rowNumber": 15,
+      "field": "age",
+      "reason": "Must be at most 150"
+    },
+    {
+      "rowNumber": 18,
+      "field": "email",
+      "reason": "Must be a valid email"
+    }
+  ],
+  "summary": {
+    "totalRows": 20,
+    "validRows": 13,
+    "invalidRows": 7
+  }
+}

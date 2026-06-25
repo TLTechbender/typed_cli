@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  cli:
+    build: .
+    volumes:
+      - ./data:/app/data
+    environment:
+      - NODE_ENV=production

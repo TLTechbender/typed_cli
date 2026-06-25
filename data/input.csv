@@ -1,0 +1,21 @@
+name,age,email,grade
+John Doe,20,john.doe@example.com,A
+Jane Smith,22,jane.smith@example.com,B+
+Michael Johnson,19,michael.johnson@example.com,C
+Sarah Williams,21,sarah.williams@example.com,A-
+David Brown,18,david.brown@example.com,B
+12345,20,numbername@example.com,A
+Emily Davis,twenty,emily.davis@example.com,B
+Chris Wilson,23,chris.wilson.example.com,A
+Amanda Taylor,20,,B+
+James Anderson,21,james.anderson@example.com
+,19,no.name@example.com,C+
+Olivia Martinez,22,olivia.martinez@example.com,A,EXTRA_FIELD
+Robert Thomas,-5,robert.thomas@example.com,B
+Sophia Jackson,999,sophia.jackson@example.com,A
+"William Harris",20,william.harris@example.com,A
+"Grace, Lee",21,grace.lee@example.com,B+
+Daniel White,20,daniel.white@example,AA
+Lucas Martin,17,lucas.martin@example.com,F
+   Emma Clark   ,19,emma.clark@example.com,A-
+Isabella Lewis,20,isabella.lewis@example.com,95
