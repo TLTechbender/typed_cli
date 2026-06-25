@@ -2,3 +2,5 @@ todo.md
 node_modules
 packgage-lock.json
 pnpn-lock.yaml
+node_modules/
+dist/
